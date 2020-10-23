@@ -1,0 +1,33 @@
+{
+    "name": "elevenone/darkmatter",
+    "description": "HTTP kernel for darkmatter",
+    "keywords": [
+        "php",
+        "http",
+        "darkmatter",
+        "elevenone"
+    ],
+    "license": "MIT",
+    "homepage": "https://elevenone.space",
+    "authors": [
+        {
+            "name": "Zsolt Sándor",
+            "email": "hello@elevenone.space"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DarkMatter\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "elevenone/http": "~1.0.0",
+        "elevenone/router": "~1.0.0",
+        "elevenone/logger": "~1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
