@@ -1,2 +1,2 @@
 # darkmatter
-Action Domain Response / adr / framework
+The Action-Domain-Responder core

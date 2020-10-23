@@ -12,6 +12,11 @@ class DomainTest extends TestCase
 
     public $logger;
 
+    public function __invoke()
+    {
+
+    }
+
     public function setUp(): void
     {
         $this->config = include SC_TESTS . '/Fixtures/config.php';
