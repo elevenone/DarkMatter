@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace DarkMatter\Domain;
 
 use DarkMatter\Components\Logger\LoggerInterface;
+use DarkMatter\Payload\Payload;
+use DarkMatter\Payload\Status;
 
 abstract class Domain
 {
