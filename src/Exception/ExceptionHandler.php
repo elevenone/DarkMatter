@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace DarkMatter\Exception;
 
+use DarkMatter\Http\Request;
+use DarkMatter\Http\Response;
+use DarkMatter\Components\Logger\LoggerInterface;
 use DarkMatter\Exception\Http\BadRequestException;
 use DarkMatter\Exception\Http\MethodNotAllowedException;
 use DarkMatter\Exception\Http\NotFoundException;
-use DarkMatter\Http\Response;
-use DarkMatter\Components\Logger\LoggerInterface;
-use DarkMatter\Http\Request;
 use DarkMatter\Responder\HtmlResponder;
 use DarkMatter\Responder\JsonResponder;
 use DarkMatter\Responder\ResponderInterface;
